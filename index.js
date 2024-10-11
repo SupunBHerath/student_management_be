@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.use('/student',studentRouter);
+app.use('/students',studentRouter);
 
 getConnection();
 app.listen(port, () => {
